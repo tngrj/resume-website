@@ -1,4 +1,8 @@
-<div class="container mx-auto max-w-5xl text-white px-8 sm:px-0">
+<script lang="ts">
+	import { TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
+</script>
+
+<div class="container mx-auto max-w-5xl text-white px-8 sm:px-0 pb-48">
 	<div class="flex flex-col text-start">
 		<h3 class="h3 underline">Experience</h3>
 
@@ -135,6 +139,69 @@
 				<span class="mt-2 sm:mt-0 sm:ml-auto">Apr 2016 - May 2019</span>
 			</div>
 		</div>
+	</div>
+	<div class="flex flex-col text-start">
+		<h3 class="h3 underline">Online Certification</h3>
+
+		<TreeView>
+			<TreeViewItem>
+				<div class="flex flex-col sm:flex-row">
+					<strong class="mb-2 sm:mr-2 sm:mb-0">
+						Web Design for Everybody: Basics of Web Development & Coding
+					</strong>
+					<div class="hidden mx-2 sm:block">-</div>
+
+					<a
+						class="anchor"
+						href="https://coursera.org/share/09ab4a1d75611d767514d0b1aded77df"
+						target="_blank"
+					>
+						Coursera
+					</a>
+				</div>
+				<svelte:fragment slot="children">
+					<TreeViewItem>Introduction to HTML5</TreeViewItem>
+					<TreeViewItem>Introduction to CSS3</TreeViewItem>
+					<TreeViewItem>Interactivity with JavaScript</TreeViewItem>
+					<TreeViewItem>Advanced Styling with Responsive Design 3</TreeViewItem>
+					<TreeViewItem>Web Design for Everybody Capstone</TreeViewItem>
+				</svelte:fragment>
+			</TreeViewItem>
+			<TreeViewItem>
+				<div class="flex flex-col sm:flex-row">
+					<strong class="mb-2 sm:mr-2 sm:mb-0"> PostgreSQL for Everybody </strong>
+					<div class="hidden mx-2 sm:block">-</div>
+
+					<a
+						class="anchor"
+						href="https://coursera.org/share/c9bb524c7e7c60e2880cb0ffb2e35fc2"
+						target="_blank"
+					>
+						Coursera
+					</a>
+				</div>
+				<svelte:fragment slot="children">
+					<TreeViewItem>Database Design and Basic SQL in PostgreSQL</TreeViewItem>
+					<TreeViewItem>Intermediate PostgreSQL</TreeViewItem>
+					<TreeViewItem>JSON and Natural Language Processing in PostgreSQL</TreeViewItem>
+					<TreeViewItem>Database Architecture, Scale, and NoSQL with Elasticsearch</TreeViewItem>
+				</svelte:fragment>
+			</TreeViewItem>
+			<TreeViewItem>
+				<div class="flex flex-col sm:flex-row">
+					<strong class="mb-2 sm:mr-2 sm:mb-0"> Python Basics </strong>
+					<div class="hidden mx-2 sm:block">-</div>
+
+					<a
+						class="anchor"
+						href="https://coursera.org/share/c00363eef57b8325ce3bea840a1466be"
+						target="_blank"
+					>
+						Coursera
+					</a>
+				</div>
+			</TreeViewItem>
+		</TreeView>
 	</div>
 	<div class="flex justify-center items-center mt-10">
 		<a class="anchor" href="/Resume (Tng Renjie).pdf">Download a copy of my CV</a>
