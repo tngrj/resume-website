@@ -26,17 +26,17 @@
 	}
 </script>
 
-<div class="container w-2/4 mx-auto">
+<div class="container mx-auto sm:px-0 px-8">
 	<h2 class="text-2xl text-white font-bold">Wireframe</h2>
-	<div class="card p-4 grid grid-cols-[auto_1fr_auto] gap-4 items-center">
-		<button type="button" class="btn-icon variant-filled" on:click={carouselLeft}>
+	<div class="card p-4 grid grid-cols-[auto_1fr_auto] sm:gap-4 gap-0 items-center">
+		<button type="button" class="btn-icon variant-filled sm:block hidden" on:click={carouselLeft}>
 			<ArrowLeft />
 		</button>
 
 		<div bind:this={elemCarousel} class="snap-x snap-mandatory scroll-smooth flex overflow-x-auto">
 			{#each imageNames as imageName}
 				<img
-					class="snap-center w-[1024px] rounded-container-token"
+					class="snap-center w-[2048px] rounded-container-token"
 					src="/hackathon/wireframe/{imageName}.png"
 					alt={imageName}
 					loading="lazy"
@@ -44,7 +44,7 @@
 			{/each}
 		</div>
 
-		<button type="button" class="btn-icon variant-filled" on:click={carouselRight}>
+		<button type="button" class="btn-icon variant-filled sm:block hidden" on:click={carouselRight}>
 			<ArrowRight />
 		</button>
 	</div>
