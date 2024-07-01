@@ -29,7 +29,11 @@
 <div class="container mx-auto sm:px-0 px-8">
 	<h2 class="text-2xl text-white font-bold">Wireframe</h2>
 	<div class="card p-4 grid grid-cols-[auto_1fr_auto] sm:gap-4 gap-0 items-center">
-		<button type="button" class="btn-icon variant-filled sm:block hidden" on:click={carouselLeft}>
+		<button
+			type="button"
+			class="btn-icon variant-filled hidden sm:inline-flex"
+			on:click={carouselLeft}
+		>
 			<ArrowLeft />
 		</button>
 
@@ -43,8 +47,11 @@
 				/>
 			{/each}
 		</div>
-
-		<button type="button" class="btn-icon variant-filled sm:block hidden" on:click={carouselRight}>
+		<button
+			type="button"
+			class="btn-icon variant-filled hidden sm:inline-flex"
+			on:click={carouselRight}
+		>
 			<ArrowRight />
 		</button>
 	</div>

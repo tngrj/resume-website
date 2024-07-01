@@ -22,8 +22,8 @@
 		<hr class="opacity-50" />
 		<footer class="p-4 card-footer flex justify-start items-center space-x-4">
 			<div class="flex-auto flex justify-between items-center">
-				<h6 class="font-bold">Nanyang Technological University Final Year Project</h6>
-				<small>Ongoing</small>
+				<h6 class="font-bold">NTU Final Year Project</h6>
+				<small>2024</small>
 			</div>
 		</footer>
 	</div>
@@ -43,7 +43,6 @@
 						A platform for recently laid-off workers to discover job opportunities based on their
 						previous experience and also develop new skills.
 					</p>
-					<p>&nbsp;</p>
 				</article>
 			</div>
 			<hr class="opacity-50" />
@@ -68,7 +67,7 @@
 			<article>
 				<p>
 					This website contains a repository of my projects and social links. It's also
-					open-sourced!
+					open-sourced!<br><br>
 				</p>
 			</article>
 		</div>
@@ -100,7 +99,7 @@
 		<hr class="opacity-50" />
 		<footer class="p-4 card-footer flex justify-start items-center space-x-4">
 			<div class="flex-auto flex justify-between items-center">
-				<h6 class="font-bold">Nanyang Technological University Module Project</h6>
+				<h6 class="font-bold">NTU Module Project</h6>
 				<small>2023</small>
 			</div>
 		</footer>
