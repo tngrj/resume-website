@@ -9,12 +9,12 @@
 <div>
 	<TabGroup
 		justify="justify-center"
-		active="bg-gradient-to-br variant-gradient-warning-success text-surface-600 dark:text-white"
-		hover="hover:bg-gradient-to-br variant-gradient-warning-success text-surface-600 dark:text-white"
+		active="bg-gradient-to-br variant-gradient-warning-success text-surface-600 text-white"
+		hover="hover:bg-gradient-to-br variant-gradient-warning-success text-surface-600 text-white"
 		flex="flex-1 lg:flex-none"
 		rounded="rounded-lg"
 		border="border-0 rounded-lg outline outline-offset-2 outline-primary-500"
-		class="text-surface-600-300-token rounded-lg fixed z-50 -translate-x-1/2 bottom-8 left-1/2 bg-surface-300-600-token w-auto"
+		class="rounded-lg fixed z-50 -translate-x-1/2 bottom-8 left-1/2 bg-surface-400 bg-opacity-60 w-auto"
 	>
 		<TabAnchor href="/" selected={$page.url.pathname === '/'}>
 			<svelte:fragment slot="lead">
