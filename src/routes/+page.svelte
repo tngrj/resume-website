@@ -14,7 +14,7 @@
 		<div class="text-start">
 			<div in:typewriter={{ speed: 10 }}>
 				<p class="text-2xl sm:text-4xl">Tng Renjie</p>
-				<p class="text-lg sm:text-xl mt-2">Electrical & Electronic Engineering Undergraduate</p>
+				<p class="text-lg sm:text-xl mt-2">Full-stack web development with a focus on data-driven applications</p>
 			</div>
 			<div class="flex flex-col items-left sm:flex-row text-xs sm:text-sm mt-2">
 				<a
