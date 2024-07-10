@@ -26,12 +26,22 @@
 						tracking, improving organisational efficiency.
 					</p>
 				</article>
+				<div class="flex flex-wrap gap-1">
+					<span class="chip variant-ghost-success">SvelteKit</span>
+					<span class="chip variant-ghost-success">Prisma</span>
+					<span class="chip variant-ghost-success">PostgreSQL</span>
+					<span class="chip variant-ghost-success">Lucia</span>
+					<span class="chip variant-ghost-success">Tailwind</span>
+					<span class="chip variant-ghost-success">Skeleton UI</span>
+				</div>
 			</div>
 			<hr class="opacity-50" />
 			<footer class="p-4 card-footer flex justify-start items-center space-x-4">
 				<div class="flex-auto flex justify-between items-center">
 					<h6 data-toc-ignore class="font-bold">NTU Final Year Project</h6>
-					<small>2024</small>
+					<span class="badge variant-ringed-success">
+						<p class="m-1">2024</p>
+					</span>
 				</div>
 			</footer>
 		</div>
@@ -52,12 +62,20 @@
 							previous experience and also develop new skills.
 						</p>
 					</article>
+					<div class="flex flex-wrap gap-1">
+						<span class="chip variant-ghost-success">SvelteKit</span>
+						<span class="chip variant-ghost-success">Google Vertex AI</span>
+						<span class="chip variant-ghost-success">Tailwind</span>
+						<span class="chip variant-ghost-success">Skeleton UI</span>
+					</div>
 				</div>
 				<hr class="opacity-50" />
 				<footer class="p-4 card-footer flex justify-start items-center space-x-4">
 					<div class="flex-auto flex justify-between items-center">
 						<h6 data-toc-ignore class="font-bold">GoogleXdEEEvelopers Tech4Tomorrow Hackathon</h6>
-						<small>2024</small>
+						<span class="badge variant-ringed-success">
+							<p class="m-1">2024</p>
+						</span>
 					</div>
 				</footer>
 			</a>
@@ -78,12 +96,19 @@
 						open-sourced!
 					</p>
 				</article>
+				<div class="flex flex-wrap gap-1">
+					<span class="chip variant-ghost-success">SvelteKit</span>
+					<span class="chip variant-ghost-success">Tailwind</span>
+					<span class="chip variant-ghost-success">Skeleton UI</span>
+				</div>
 			</div>
 			<hr class="opacity-50" />
 			<footer class="p-4 card-footer flex justify-start items-center space-x-4">
 				<div class="flex-auto flex justify-between items-center">
 					<h6 data-toc-ignore class="font-bold">This website!</h6>
-					<small>2024</small>
+					<span class="badge variant-ringed-success">
+						<p class="m-1">2024</p>
+					</span>
 				</div>
 			</footer>
 		</div>
@@ -103,12 +128,17 @@
 						email confirmations for convenience.
 					</p>
 				</article>
+				<div class="flex flex-wrap gap-1">
+					<span class="chip variant-ghost-success">PHP</span>
+				</div>
 			</div>
 			<hr class="opacity-50" />
 			<footer class="p-4 card-footer flex justify-start items-center space-x-4">
 				<div class="flex-auto flex justify-between items-center">
 					<h6 data-toc-ignore class="font-bold">NTU Module Project</h6>
-					<small>2023</small>
+					<span class="badge variant-ringed-success">
+						<p class="m-1">2023</p>
+					</span>
 				</div>
 			</footer>
 		</div>
@@ -118,12 +148,17 @@
 				<article>
 					<p>A Telegram bot designed to help Duty Officers handle sick reports more efficiently.</p>
 				</article>
+				<div class="flex flex-wrap gap-1">
+					<span class="chip variant-ghost-success">telegraf.js</span>
+				</div>
 			</div>
 			<hr class="opacity-50" />
 			<footer class="p-4 card-footer flex justify-start items-center space-x-4">
 				<div class="flex-auto flex justify-between items-center">
 					<h6 data-toc-ignore class="font-bold">SAF Personal Project</h6>
-					<small>2021</small>
+					<span class="badge variant-ringed-success">
+						<p class="m-1">2021</p>
+					</span>
 				</div>
 			</footer>
 		</div>
@@ -135,12 +170,19 @@
 						WebRTC-powered video conferencing website designed for smart health video consultations.
 					</p>
 				</article>
+				<div class="flex flex-wrap gap-1">
+					<span class="chip variant-ghost-success">Bulma</span>
+					<span class="chip variant-ghost-success">Express</span>
+					<span class="chip variant-ghost-success">Firebase</span>
+				</div>
 			</div>
 			<hr class="opacity-50" />
 			<footer class="p-4 card-footer flex justify-start items-center space-x-4">
 				<div class="flex-auto flex justify-between items-center">
 					<h6 data-toc-ignore class="font-bold">Ngee Ann Poly Final Year Project</h6>
-					<small>2019</small>
+					<span class="badge variant-ringed-success">
+						<p class="m-1">2019</p>
+					</span>
 				</div>
 			</footer>
 		</div>
