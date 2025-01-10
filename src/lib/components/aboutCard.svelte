@@ -8,14 +8,19 @@
 	export let skills: string[] = [];
 </script>
 
-<div class="card mb-4">
+<div class="card bg-surface-400 mb-8">
 	<header class="card-header flex flex-col items-start">
 		<div class="w-full flex flex-col sm:flex-row sm:items-center sm:justify-between">
-			<a class="anchor" href={organisationUrl} target="_blank">
-				<span class="hidden sm:inline">{organisation}</span>
-				<span class="sm:hidden">{shortOrganisation ?? organisation}</span>
-			</a>
-			<span class="badge variant-ringed-success mt-2 sm:mt-0 sm:ml-4 self-start">
+			<div class="flex items-center justify-between">
+				<a class="anchor" href={organisationUrl} target="_blank">
+					<span class="hidden sm:inline">{organisation}</span>
+					<span class="sm:hidden">{shortOrganisation ?? organisation}</span>
+				</a>
+				<span class="badge variant-ghost-secondary sm:hidden ml-4">
+					<p class="m-1">{date}</p>
+				</span>
+			</div>
+			<span class="badge variant-ghost-secondary hidden sm:inline-block sm:ml-4">
 				<p class="m-1">{date}</p>
 			</span>
 		</div>
@@ -40,7 +45,7 @@
 	{#if skills.length > 0}
 		<footer class="card-footer flex flex-wrap gap-1">
 			{#each skills as skill}
-				<span class="chip variant-ghost-success">{skill}</span>
+				<span class="chip variant-soft-success text-success-900">{skill}</span>
 			{/each}
 		</footer>
 	{/if}

@@ -3,41 +3,41 @@
 	import { RecursiveTreeView } from '@skeletonlabs/skeleton';
 
 	let certifications = [
-        {
-            title: 'Web Design for Everybody: Basics of Web Development & Coding',
-            shortTitle: 'Web Design for Everybody',
-            organization: 'Coursera',
-            url: 'https://coursera.org/share/09ab4a1d75611d767514d0b1aded77df',
-            courses: [
-                'Introduction to HTML5',
-                'Introduction to CSS3',
-                'Interactivity with JavaScript',
-                'Advanced Styling with Responsive Design 3',
-                'Web Design for Everybody Capstone'
-            ]
-        },
-        {
-            title: 'PostgreSQL for Everybody',
-            organization: 'Coursera',
-            url: 'https://coursera.org/share/c9bb524c7e7c60e2880cb0ffb2e35fc2',
-            courses: [
-                'Database Design and Basic SQL in PostgreSQL',
-                'Intermediate PostgreSQL',
-                'JSON and Natural Language Processing in PostgreSQL',
-                'Database Architecture, Scale, and NoSQL with Elasticsearch'
-            ]
-        },
-        {
-            title: 'Python Basics',
-            organization: 'Coursera',
-            url: 'https://coursera.org/share/c00363eef57b8325ce3bea840a1466be'
-        }
-    ];
+		{
+			title: 'Web Design for Everybody: Basics of Web Development & Coding',
+			shortTitle: 'Web Design for Everybody',
+			organization: 'Coursera',
+			url: 'https://coursera.org/share/09ab4a1d75611d767514d0b1aded77df',
+			courses: [
+				'Introduction to HTML5',
+				'Introduction to CSS3',
+				'Interactivity with JavaScript',
+				'Advanced Styling with Responsive Design 3',
+				'Web Design for Everybody Capstone'
+			]
+		},
+		{
+			title: 'PostgreSQL for Everybody',
+			organization: 'Coursera',
+			url: 'https://coursera.org/share/c9bb524c7e7c60e2880cb0ffb2e35fc2',
+			courses: [
+				'Database Design and Basic SQL in PostgreSQL',
+				'Intermediate PostgreSQL',
+				'JSON and Natural Language Processing in PostgreSQL',
+				'Database Architecture, Scale, and NoSQL with Elasticsearch'
+			]
+		},
+		{
+			title: 'Python Basics',
+			organization: 'Coursera',
+			url: 'https://coursera.org/share/c00363eef57b8325ce3bea840a1466be'
+		}
+	];
 
-    let myTreeViewNodes = certifications.map((cert, index) => {
-        let node = {
-            id: `cert-${index}`,
-            content: `
+	let myTreeViewNodes = certifications.map((cert, index) => {
+		let node = {
+			id: `cert-${index}`,
+			content: `
                 <div class="flex flex-col sm:flex-row">
                     <strong class="block sm:hidden mb-2 sm:mr-2 sm:mb-0">${cert.shortTitle || cert.title}</strong>
                     <strong class="hidden sm:block mb-2 sm:mr-2 sm:mb-0">${cert.title}</strong>
@@ -45,25 +45,40 @@
                     <a class="anchor" href="${cert.url}" target="_blank">${cert.organization}</a>
                 </div>
             `,
-            children: cert.courses
-                ? cert.courses.map((course, courseIndex) => ({
-                        id: `cert-${index}-course-${courseIndex}`,
-                        content: course
-                    }))
-                : []
-        };
-        return node;
-    });
+			children: cert.courses
+				? cert.courses.map((course, courseIndex) => ({
+						id: `cert-${index}-course-${courseIndex}`,
+						content: course
+					}))
+				: []
+		};
+		return node;
+	});
 </script>
 
-<div class="container mx-auto max-w-5xl px-8 sm:px-0 pb-48">
-	<h3 class="h3 underline text-white">Experience</h3>
+<div class="container mx-auto max-w-4xl px-8 sm:px-0 pb-32">
+	<h3 class="h3 font-bold">Experience</h3>
+	<hr class="mb-4 opacity-50" />
+	<AboutCard
+		organisation="Synapxe Pte Ltd"
+		shortOrganisation="Synapxe"
+		organisationUrl="https://www.synapxe.sg"
+		position="Systems Analyst"
+		date="Sept 2024 - Present"
+		details={[
+			'Provide primary support to end-users, resolving application-specific and cross-team issues efficiently',
+			'Design, build, test, and implement system workflows and changes to meet organizational needs',
+			'Act as a liaison between end-users, business stakeholders, and Epic representatives, ensuring alignment on deliverables and workflows',
+			'Conduct training sessions, troubleshoot technical issues, and maintain communication with leadership on project progress',
+			'Collaborate with teams to ensure the system meets business goals and operational requirements'
+		]}
+	/>
 
 	<AboutCard
 		organisation="Infineon Technologies Asia Pacific Pte Ltd"
 		shortOrganisation="Infineon Technologies"
 		organisationUrl="https://www.infineon.com"
-		position="Digitalisation / Automation Project Engineer"
+		position="Digitalisation / Automation Project Engineer (Internship)"
 		date="May - Dec 2022"
 		details={[
 			'Contributed to the development of inventory database web application, including potential future expansion',
@@ -73,21 +88,11 @@
 			'Refined the project code structure for improved readability and scalability with the use of Flask Blueprints',
 			'Raised awareness of the project by creating informative posters, publications, and presentations for internal use'
 		]}
-		skills={['HTML', 'CSS', 'JavaScript', 'MySQL', 'Python', 'Flask', 'RedHat OpenShift']}
+		skills={['HTML', 'CSS', 'JavaScript', 'MySQL', 'Python', 'Flask', 'Red Hat OpenShift']}
 	/>
 
-	<AboutCard
-		organisation="Centre for Strategic Infocomm Technologies"
-		shortOrganisation="CSIT"
-		organisationUrl="https://www.csit.gov.sg"
-		position="Cybersecurity Software Researcher"
-		date="Mar - Apr 2019"
-		details={['Designed and developed in-house software']}
-		skills={['HTML', 'CSS', 'JavaScript']}
-	/>
-
-	<h3 class="h3 underline text-white">Education</h3>
-
+	<h3 class="h3 font-bold">Education</h3>
+	<hr class="mb-4 opacity-50" />
 	<AboutCard
 		organisation="Nanyang Technological University"
 		organisationUrl="https://www.ntu.edu.sg/eee/admissions/programmes/undergraduate-programmes/detail/bachelor-of-engineering-in-electrical-and-electronic-engineering-(eee)"
@@ -113,23 +118,15 @@
 		skills={['GPA 3.90/4.00', 'Silver Medalist']}
 	/>
 
-	<h3 class="h3 underline text-white">Online Certification</h3>
-
-	<div class="card mb-4">
+	<h3 class="h3 font-bold">Online Certification</h3>
+	<hr class="mb-4 opacity-50" />
+	<div class="card bg-surface-400 mb-8">
 		<section class="p-4">
 			<RecursiveTreeView nodes={myTreeViewNodes} />
 		</section>
 	</div>
 
-	<div class="flex justify-center items-center mt-10">
+	<div class="flex justify-center items-center">
 		<a class="anchor" href="/Resume (Tng Renjie).pdf">Download a copy of my CV</a>
 	</div>
 </div>
-
-<style>
-	h3 {
-		font-size: 1.5rem;
-		font-weight: 600;
-		margin-bottom: 1rem;
-	}
-</style>

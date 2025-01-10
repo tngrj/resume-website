@@ -9,12 +9,12 @@
 <div>
 	<TabGroup
 		justify="justify-center"
-		active="bg-gradient-to-br variant-gradient-warning-success text-surface-600 text-white"
-		hover="hover:bg-gradient-to-br variant-gradient-warning-success text-surface-600 text-white"
+		active="bg-gradient-to-br variant-gradient-warning-success text-surface-600"
+		hover="hover:bg-gradient-to-br variant-gradient-warning-success text-surface-600"
 		flex="flex-1 lg:flex-none"
 		rounded="rounded-lg"
 		border="border-0 rounded-lg outline outline-offset-2 outline-primary-500"
-		class="rounded-lg fixed z-50 -translate-x-1/2 bottom-8 left-1/2 bg-surface-400 bg-opacity-60 w-auto"
+		class="rounded-lg fixed z-50 -translate-x-1/2 bottom-8 left-1/2 bg-surface-300 dark:bg-surface-600 bg-opacity-60 w-auto"
 	>
 		<TabAnchor href="/" selected={$page.url.pathname === '/'}>
 			<svelte:fragment slot="lead">
@@ -24,7 +24,7 @@
 				</div>
 			</svelte:fragment>
 		</TabAnchor>
-		<span class="mx-2"></span>
+		<span class="mx-1"></span>
 		<TabAnchor href="/project" selected={$page.url.pathname === '/project'}>
 			<svelte:fragment slot="lead">
 				<div class={nav}>
@@ -33,7 +33,7 @@
 				</div>
 			</svelte:fragment>
 		</TabAnchor>
-		<span class="mx-2"></span>
+		<span class="mx-1"></span>
 		<TabAnchor href="/about" selected={$page.url.pathname === '/about'}>
 			<svelte:fragment slot="lead">
 				<div class={nav}>

@@ -12,7 +12,7 @@
 		<AppBar background="bg-surface-500-400">
 			<div class="flex items-center top-8">
 				<a href="/">
-					<h2 class="h2 font-bold text-white">{$page.url.pathname}</h2>
+					<h3 class="h3 font-bold">{$page.url.pathname}</h3>
 				</a>
 				<a class="anchor fixed right-28" href="/uses">Uses</a>
 				<div class="fixed right-8">

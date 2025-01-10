@@ -14,11 +14,11 @@
 	} from 'lucide-svelte';
 </script>
 
-<div class="container mx-auto max-w-5xl text-white px-8 sm:px-0">
+<div class="container mx-auto max-w-4xl px-8 sm:px-0">
 	<div class="flex flex-col text-start">
 		<div class="my-4">
 			<h3 class="h3 mb-4">Hardware</h3>
-			<Accordion class="text-xl">
+			<Accordion>
 				<AccordionItem open>
 					<svelte:fragment slot="lead"><Laptop2 /></svelte:fragment>
 					<svelte:fragment slot="summary">Macbook Air M2 13"</svelte:fragment>
@@ -46,7 +46,7 @@
 						<ul class="list">
 							<li>
 								<span>•</span>
-								<span class="flex-auto">NZXT H1</span>
+								<span class="flex-auto">Formd T1 v2.1</span>
 							</li>
 							<li>
 								<span>•</span>
@@ -126,7 +126,7 @@
 		</div>
 		<div class="my-4">
 			<h3 class="h3 mb-4">Software</h3>
-			<Accordion class="text-xl">
+			<Accordion>
 				<AccordionItem>
 					<svelte:fragment slot="lead"><Code2 /></svelte:fragment>
 					<svelte:fragment slot="summary">Development</svelte:fragment>
