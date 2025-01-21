@@ -26,7 +26,7 @@
 	}
 </script>
 
-<div class="container mx-auto max-w-4xl px-4 sm:px-0 flex flex-col items-center">
+<div class="container mx-auto max-w-4xl px-8 sm:px-0 flex flex-col items-center">
 	<article class="prose dark:prose-invert lg:prose-lg prose-hr:mb-8">
 		<h3>GoogleXdEEEvelopers Tech4Tomorrow Hackathon</h3>
 		<hr />
@@ -38,9 +38,15 @@
 		</p>
 		<p>
 			I implemented and developed a dynamic platform integrating AI-driven job recommendations with
-			personalised upskilling resources. Built with SvelteKit, Google Cloud Functions, and Vertex
-			AI, utilising pre-labelled job data to provide tailored job suggestions and skill enhancement
-			paths.
+			personalised upskilling resources. Built with <strong>SvelteKit</strong>,
+			<strong>Google Cloud Functions</strong>, and <strong>Vertex AI</strong>, utilising
+			pre-labelled job data to provide tailored job suggestions and skill enhancement paths.
+		</p>
+		<p>
+			You can check out the project's source code on <a
+				href="https://github.com/tngrj/NTU-Google-Hackathon"
+				target="_blank">GitHub</a
+			>.
 		</p>
 		<ol>
 			<li>
@@ -78,12 +84,14 @@
 		</ol>
 
 		<h4>IT Demo</h4>
+		<!-- svelte-ignore a11y-media-has-caption -->
 		<video controls class="rounded-container-token">
 			<source src="/hackathon/IT.mov" type="video/mp4" />
 			Your browser does not support the video tag.
 		</video>
 
 		<h4>Business Demo</h4>
+		<!-- svelte-ignore a11y-media-has-caption -->
 		<video controls class="rounded-container-token">
 			<source src="/hackathon/Business.mov" type="video/mp4" />
 			Your browser does not support the video tag.
@@ -102,7 +110,7 @@
 		</button>
 		<div
 			bind:this={elemCarousel}
-			class="mx-2 snap-x snap-mandatory w-[707px] scroll-smooth flex overflow-x-auto"
+			class="mx-2 snap-x snap-mandatory scroll-smooth flex overflow-x-auto"
 		>
 			{#each imageNames as imageName}
 				<img
