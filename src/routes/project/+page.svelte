@@ -3,7 +3,7 @@
 	import ProjectCard from '$lib/components/projectCard.svelte';
 </script>
 
-<div class="grid grid-cols-5 mt-4 md:pb-48">
+<div class="grid grid-cols-5 mt-4 md:pb-36">
 	<div class="hidden md:block md:sticky top-0 self-start ml-8 col-span-1">
 		<TableOfContents indentStyles={{ h3: '' }} active="text-white"
 			><p class="underline">Projects</p></TableOfContents
