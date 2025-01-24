@@ -4,6 +4,33 @@
 
 	let certifications = [
 		{
+			title: 'Google Project Management',
+			organization: 'Coursera',
+			url: 'https://coursera.org/share/153d47f6f6a776f90695c252876aedde',
+			courses: [
+				'Foundations of Project Management',
+				'Project Initiation: Starting a Successful Project',
+				'Project Planning: Putting It All Together',
+				'Project Execution: Running the Project',
+				'Agile Project Management',
+				'Capstone: Applying Project Management in the Real World'
+			]
+		},
+		{
+			title: 'Google UX Design',
+			organization: 'Coursera',
+			url: 'https://coursera.org/share/08cfc415c0b37bce8b5cdd1146ea03b2',
+			courses: [
+				'Foundations of User Experience (UX) Design',
+				'Start the UX Design Process: Empathize, Define, and Ideate',
+				'Build Dynamic User Interfaces (UI) for Websites',
+				'Conduct UX Research and Test Early Concepts',
+				'Create High-Fidelity Designs and Prototypes in Figma',
+				'Build Wireframes and Low-Fidelity Prototypes',
+				'Design a User Experience for Social Good & Prepare for Jobs'
+			]
+		},
+		{
 			title: 'Web Design for Everybody: Basics of Web Development & Coding',
 			shortTitle: 'Web Design for Everybody',
 			organization: 'Coursera',
