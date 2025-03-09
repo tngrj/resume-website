@@ -58,6 +58,10 @@
 							</li>
 							<li>
 								<span>•</span>
+								<span class="flex-auto">GIGABYTE GeForce® RTX 2060 SUPER™ WINDFORCE 8G </span>
+							</li>
+							<li>
+								<span>•</span>
 								<span class="flex-auto">16 GB RAM</span>
 							</li>
 							<li>
